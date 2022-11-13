@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 250 275" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="b" x1="304.67" x2="309.97" y1="553.69" y2="553.69" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+   <stop stop-color="#f3d727" offset="0"/>
+   <stop stop-color="#e0b524" offset="1"/>
+  </linearGradient>
+  <radialGradient id="a" cx="170.2" cy="1005.8" r="2.6937" gradientTransform="scale(1.819 .54975)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#e0b524" offset="0"/>
+   <stop stop-color="#f3d727" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g transform="matrix(-22.182 0 0 22.182 7003.9 -12060)" stroke="#000">
+  <path d="m304.83 552.94 0.04499 1.552c2.2418 1.2521 6.643 1.3571 9.4696-0.06748l0.02249-1.552" fill="url(#b)" fill-rule="evenodd" stroke-width=".3125"/>
+  <path d="m314.37 552.92a4.7686 1.3496 0 1 1 -9.5371 0 4.7686 1.3496 0 1 1 9.5371 0z" fill="url(#a)" stroke-linejoin="round" stroke-width=".2625"/>
+ </g>
+ <g transform="matrix(-22.182 0 0 22.182 6990.2 -12093)" stroke="#000">
+  <path d="m304.83 552.94 0.04499 1.552c2.2418 1.2521 6.643 1.3571 9.4696-0.06748l0.02249-1.552" fill="url(#b)" fill-rule="evenodd" stroke-width=".3125"/>
+  <path d="m314.37 552.92a4.7686 1.3496 0 1 1 -9.5371 0 4.7686 1.3496 0 1 1 9.5371 0z" fill="url(#a)" stroke-linejoin="round" stroke-width=".2625"/>
+ </g>
+ <g transform="matrix(-22.182 0 0 22.182 6998.7 -12124)" stroke="#000">
+  <path d="m304.83 552.94 0.04499 1.552c2.2418 1.2521 6.643 1.3571 9.4696-0.06748l0.02249-1.552" fill="url(#b)" fill-rule="evenodd" stroke-width=".3125"/>
+  <path d="m314.37 552.92a4.7686 1.3496 0 1 1 -9.5371 0 4.7686 1.3496 0 1 1 9.5371 0z" fill="url(#a)" stroke-linejoin="round" stroke-width=".2625"/>
+ </g>
+ <g transform="matrix(-22.182 0 0 22.182 6995.9 -12155)" stroke="#000">
+  <path d="m304.83 552.94 0.04499 1.552c2.2418 1.2521 6.643 1.3571 9.4696-0.06748l0.02249-1.552" fill="url(#b)" fill-rule="evenodd" stroke-width=".3125"/>
+  <path d="m314.37 552.92a4.7686 1.3496 0 1 1 -9.5371 0 4.7686 1.3496 0 1 1 9.5371 0z" fill="url(#a)" stroke-linejoin="round" stroke-width=".2625"/>
+ </g>
+ <g transform="matrix(-22.182 0 0 22.182 6995.9 -12189)" stroke="#000">
+  <path d="m304.83 552.94 0.04499 1.552c2.2418 1.2521 6.643 1.3571 9.4696-0.06748l0.02249-1.552" fill="url(#b)" fill-rule="evenodd" stroke-width=".3125"/>
+  <path d="m314.37 552.92a4.7686 1.3496 0 1 1 -9.5371 0 4.7686 1.3496 0 1 1 9.5371 0z" fill="url(#a)" stroke-linejoin="round" stroke-width=".2625"/>
+ </g>
+ <g transform="matrix(-22.182 0 0 22.182 6990.2 -12220)" stroke="#000">
+  <path d="m304.83 552.94 0.04499 1.552c2.2418 1.2521 6.643 1.3571 9.4696-0.06748l0.02249-1.552" fill="url(#b)" fill-rule="evenodd" stroke-width=".3125"/>
+  <path d="m314.37 552.92a4.7686 1.3496 0 1 1 -9.5371 0 4.7686 1.3496 0 1 1 9.5371 0z" fill="url(#a)" stroke-linejoin="round" stroke-width=".2625"/>
+ </g>
+</svg>

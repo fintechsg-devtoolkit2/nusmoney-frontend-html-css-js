@@ -1,0 +1,43 @@
+.home-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .home-main-section .img-wrapper {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+  }
+  
+  .home-main-section .money-image {
+    background-image: url(../images/gold-coins-image.svg);
+    flex-grow: 1;
+    max-height: 70vh;
+    min-width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+  
+  .home-main-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+  }
+  
+  @media (max-width: 900px) {
+    .home-main-section .img-wrapper {
+      display: none;
+    }
+  
+    .home-main-section {
+      justify-content: center;
+    }
+  }
+  

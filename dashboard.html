@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles/styles.css" rel="stylesheet">
+  <link href="styles/index.css" rel="stylesheet">
+  <title>nus money</title>
+</head>
+<body class="container full-height-grow">
+  <header class="main-header">
+    <a href="/" class="brand-logo">
+      <img src="images/nus-money-logo.svg">
+      <div class="brand-logo-name">nus money</div>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="feature.html">How it works</a></li>
+        <li><a href="transactions.html">Transactions</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="dashboard-section">
+    <h3>Dashboard</h3>
+    <form id="form">
+      <div class="form-control">
+        <label for="startdate">Start Date</label>    
+        <input type="date" id="startdate" placeholder="Enter start date..." />
+      </div>
+      <div class="form-control">
+        <label for="enddate">End Date</label>    
+        <input type="date" id="enddate" placeholder="Enter end date..." />
+      </div>
+      <button class="btn">Submit</button>
+    </form>
+
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="//d3js.org/d3.v3.min.js"></script>
+  <script src="/scripts/getdata.js"></script>
+</body>
+</html>

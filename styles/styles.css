@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/* Define color palette for the site */
+:root {
+    --main-text-color: #f1d75eff;  /* naples-yellow */
+    --btn-hover-color: #5cc8ffff;  /* capri */
+    --btn-focus-color: #5cc8ffff;  /* capri */
+    --main-bg-color: #297373ff;    /* skobeloff */
+    --btn-bg-color: #a72608ff;     /* rufous */
+    --menu-hover-color: #f7f0f5ff; /* magnolia */
+    --btn-text-color: #f7f0f5ff;   /* magnolia */
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--main-bg-color);
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    color: var(--main-text-color);
+    min-height: 100vh;
+  }
+  
+  .full-height-grow {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .brand-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .brand-logo-name {
+    margin-left: 1rem;
+  }
+  
+  .main-nav ul, .footer-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .main-nav a, .footer-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  .main-nav a:hover, .footer-nav a:hover  {
+    color: var(--menu-hover-color);
+  }
+  
+  .main-header, .main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-header {
+    height: 140px;
+  }
+  
+  .main-footer {
+    height: 70px;
+    background-color: var(--main-bg-color);
+    font-weight: bold;
+  }
+  
+  .social-link img {
+    width: 1em;
+    margin-right: .25rem;
+  }
+  
+  .main-footer .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    flex-grow: 1;
+  }
+  
+  .title {
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  
+  .subtitle {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    color: var(--btn-text-color);
+    background-color: var(--btn-bg-color);
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: var(--btn-hover-color);
+  }
+  
+  .btn:focus {
+    background-color: var(--btn-focus-color);
+  }
+
+
