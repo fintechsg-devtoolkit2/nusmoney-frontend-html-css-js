@@ -2,7 +2,8 @@
 
 This is a sample frontend application for the nus money app.
 
-The nus money app is part of the FintechSG programme at National University of Singapore.
+The nus money app is part of the FintechSG programme at National University of Singapore. You can learn more about the FintechSG programme at:
+https://ace.nus.edu.sg/nus-fintech-sg-programme/
 
 This application is the frontend client only, written in HTML, CSS and Javascript.
 
