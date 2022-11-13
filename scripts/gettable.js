@@ -6,7 +6,7 @@ function getDataFromApi(event) {
   let url = "https://fe04156e-b0a5-468a-a569-dab0a548bb56.mock.pstmn.io"
 
   var settings = {
-    "url": `${url}/transactions?start-date=${startdate}&end-date=${enddate}`,
+    "url": `${url}/transactions?startdate=${startdate}&enddate=${enddate}`,
     "method": "GET",
     "timeout": 0,
     "headers": {
